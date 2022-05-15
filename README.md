@@ -16,7 +16,7 @@ In this project, I will perform a statistical analyisis on production data to di
 
 <p align = "center">
 <img width="50%" alt="Screen Shot 2022-05-15 at 10 19 10 AM" src="https://user-images.githubusercontent.com/98676400/168480287-616cad2b-962e-4e0c-9d58-d6e6f4ad22e9.png">
-<p align= "center">Figure-1</p>
+<p align= "center"><code>Figure-1</code></p>
 </p>
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -34,7 +34,12 @@ We can conclude that there is a strong linear relationship between variables and
   
 <p align = "center">
 <img width="50%" alt="Screen Shot 2022-05-15 at 10 19 10 AM" src="https://user-images.githubusercontent.com/98676400/168482006-9650fd8e-6038-4dc2-9d39-249776447a62.png">
-<p align= "center">Figure-2</p>
+  <p align= "center"><code>Figure-2</code></p>
 </p>
   
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+#### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+  
+To quantify how well our linear model can be used to predict future observations, our linear regression functions will calculate an r-squared value. The <code>r-squared (r2)</code> value is also known as the coefficient of determination and represents how well the regression model approximates real-world data points. In most cases, the r-squared value will range between 0 and 1 and can be used as a probability metric to determine the likelihood that future data points will fit the linear model.
+Yes, from <code>Figure-1</code> we can see that <code>r-squared = 0.7149 </code> which indicates that our model does predict the mpg of the MechaCar prototype with some relative effectiveness.
+  
+
