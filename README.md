@@ -91,6 +91,8 @@ In order to decide which Hypothesis we can reject or fail to reject, we need to 
   </tr>
 </table>
 
+## Study Design: MechaCar vs Competition
+
 
   
 
