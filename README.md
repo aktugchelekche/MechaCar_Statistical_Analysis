@@ -1,9 +1,9 @@
 # MechaCar Statistical Analysis
 
-A Statisitical analysis on automobile performance with R. 
+A Statistical analysis on automobile performance with R. 
 
 ## Overview
-In this project, I will perform a statistical analyisis on production data to discover cause of production troubles that blocking the manufacturing team’s progress. My goal to perform following statistical tests and models :
+In this project, I will perform a statistical analysis on production data to discover cause of production troubles that blocking the manufacturing team’s progress. My goal to perform following statistical tests and models :
 
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
@@ -20,7 +20,7 @@ In this project, I will perform a statistical analyisis on production data to di
 </p>
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-In order to answer this question, we have to refer to one of the most important constant in statistics which is known as  <code> p-value </code> probablity valut. In nutshell, if the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, implies that those variables have a significant impact on <code>mpg</code>. According to Figure 1 : 
+In order to answer this question, we have to refer to one of the most important constant in statistics which is known as  <code> p-value </code> probability value. In nutshell, if the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, implies that those variables have a significant impact on <code>mpg</code>. According to Figure 1 : 
 * Ground clearance <code>p-value = 5.21 x 10<sup>-8</sup> </code>,
 * Vehicle length <code>p-value = 2.60 x 10<sup>-12</sup></code>,
 * Intercept <code>p-value = 5.08 x 10<sup>-8</sup></code>
@@ -29,7 +29,7 @@ a non-random amount of variance to the mpg values in the dataset. Since the inte
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
 
-From the Linear Reggesion model the  <code> p-value</code> of our statistic is <code>5.35 x 10<sup>-11<sup></code>, much lower than significance level of <code>0.05%</code>. Thus,there are sufficient evidence to <strong>reject the null hypothesis H<sub>0</sub> :The slope of the linear model is zero</strong>. 
+From the Linear Regression model the  <code> p-value</code> of our statistic is <code>5.35 x 10<sup>-11<sup></code>, much lower than significance level of <code>0.05%</code>. Thus,there are sufficient evidence to <strong>reject the null hypothesis H<sub>0</sub> :The slope of the linear model is zero</strong>. 
 We can conclude that there is a strong linear relationship between variables and mpg of MechaCar prototype. Figure-2 would is showing the linear relation between <code> MPG ~ Vehicle Length </code>. 
   
 <p align = "center">
@@ -60,7 +60,7 @@ Since the variance of the suspension coils must be less than  100 pounds per squ
   <p align= "center"><code>Figure-4</code></p>
 </p>
 
-However, when we created a summary for each indivudual lot , we can observe that <code> Lot 3</code> exceed the limit of 100 pounds PSI as <code> 170.286 </code> in <code> Figure-4 </code> . 
+However, when we created a summary for each individual lot , we can observe that <code> Lot 3</code> exceed the limit of 100 pounds PSI as <code> 170.286 </code> in <code> Figure-4 </code> . 
 
 ## T-Tests on Suspension Coils
 
@@ -86,7 +86,7 @@ In order to decide which Hypothesis we can reject or fail to reject, we need to 
     <td><img width="418" alt="Screen Shot 2022-05-15 at 3 08 17 PM" src="https://user-images.githubusercontent.com/98676400/168491881-2d48905c-4973-42f2-94f5-a66e1fb9a868.png"></td>
   </tr>
   <tr>
-  <td><strong>T-test on Suspension Coils Lot 3</strong>: As we can see from the cumulative T-test<code> p-value = 0.04168</code> that is quite less than <code>0.05</code> thus we can reject the null hypothesis that the the mean of the sample and its presumed population mean are statistically different. This lot might be the cuase of production troubles and need more attention to find the issue. </td>
+  <td><strong>T-test on Suspension Coils Lot 3</strong>: As we can see from the cumulative T-test<code> p-value = 0.04168</code> that is quite less than <code>0.05</code> thus we can reject the null hypothesis that the the mean of the sample and its presumed population mean are statistically different. This lot might be the cause of production troubles and need more attention to find the issue. </td>
     <td><img width="417" alt="Screen Shot 2022-05-15 at 3 08 53 PM" src="https://user-images.githubusercontent.com/98676400/168491895-3289d7d0-59e6-4885-a1e4-5fbd42e7b63e.png"></td>
   </tr>
 </table>
@@ -105,10 +105,10 @@ H<sub>0</sub>: The means of fuel efficiency of all groups are equal.
 H<sub>a</sub>: There is at least one mean that has different fuel efficiency from all other groups.
 
 #### What statistical test would you use to test the hypothesis? And why?
-Using a one-way ANOVA test would be a good fit for this anaysis since we are working on a single variable with multiple groups. Here we can assign  single dependent variable fuel efficiency means across a single independent variable horse power with multiple groups. Depends on <code> p-value</code> we can either we reject the null hypothesis, conclude that at least one of the means of fuel efficinciy is different from all other groups.
+Using a one-way ANOVA test would be a good fit for this analysis since we are working on a single variable with multiple groups. Here we can assign  single dependent variable fuel efficiency means across a single independent variable horse power with multiple groups. Depends on <code> p-value</code> we can either we reject the null hypothesis, conclude that at least one of the means of fuel efficiency is different from all other groups.
 #### What data is needed to run the statistical test?
-Follwing data is needed to run this statistical test,
+Following data is needed to run this statistical test,
 
 * VIN number
 * Horse Power data
-* Fuel Efficincy data
+* Fuel Efficiency data
