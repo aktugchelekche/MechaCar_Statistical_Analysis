@@ -93,6 +93,22 @@ In order to decide which Hypothesis we can reject or fail to reject, we need to 
 
 ## Study Design: MechaCar vs Competition
 
+In order to compare the performance of the MechaCar against the competition, we can refer to few different  variables such as ,  fuel efficiency, horsepower, safety rating,carbon waste and emissions system.
 
-  
+#### What metric or metrics are you going to test?
 
+The metrics are horsepower and highway fuel efficiencies.
+
+#### What is the null hypothesis or alternative hypothesis?
+
+H<sub>0</sub>: The means of fuel efficiency of all groups are equal.
+H<sub>a</sub>: There is at least one mean that has different fuel efficiency from all other groups.
+
+#### What statistical test would you use to test the hypothesis? And why?
+Using a one-way ANOVA test would be a good fit for this anaysis since we are working on a single variable with multiple groups. Here we can assign  single dependent variable fuel efficiency means across a single independent variable horse power with multiple groups. Depends on <code> p-value</code> we can either we reject the null hypothesis, conclude that at least one of the means of fuel efficinciy is different from all other groups.
+#### What data is needed to run the statistical test?
+Follwing data is needed to run this statistical test,
+
+* VIN number
+* Horse Power data
+* Fuel Efficincy data
