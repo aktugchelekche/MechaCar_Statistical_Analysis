@@ -42,4 +42,40 @@ We can conclude that there is a strong linear relationship between variables and
 To quantify how well our linear model can be used to predict future observations, our linear regression functions will calculate an r-squared value. The <code>r-squared (r2)</code> value is also known as the coefficient of determination and represents how well the regression model approximates real-world data points. In most cases, the r-squared value will range between 0 and 1 and can be used as a probability metric to determine the likelihood that future data points will fit the linear model.
 Yes, from <code>Figure-1</code> we can see that <code>r-squared = 0.7149 </code> which indicates that our model does predict the mpg of the MechaCar prototype with some relative effectiveness.
   
+## Summary Statistics on Suspension Coils
+  
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  
+
+<p align = "center">
+<img width="50%" alt="Screen Shot 2022-05-15 at 10 19 10 AM" src="https://user-images.githubusercontent.com/98676400/168491310-4d663588-10fc-4acb-b4a7-e4613438a9e2.png">
+  <p align= "center"><code>Figure-3</code></p>
+</p>
+
+Since the variance of the suspension coils must be less than  100 pounds per square inch then the current manufacturing data meet this design specification for all manufacturing lots in total as <code> 62.29356</code> in <code> Figure-3</code>
+
+
+<p align = "center">
+<img width="50%" alt="Screen Shot 2022-05-15 at 10 19 10 AM" src="https://user-images.githubusercontent.com/98676400/168491489-6d84acd0-ce56-40cd-a88d-2cd1d188c4e8.png">
+  <p align= "center"><code>Figure-4</code></p>
+</p>
+
+However, when we created a summary for each indivudual lot , we can observe that <code> Lot 3</code> exceed the limit of 100 pounds PSI as <code> 170.286 </code> in <code> Figure-4 </code> . 
+
+## T-Tests on Suspension Coils
+
+<img width="422" alt="Screen Shot 2022-05-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/98676400/168491796-ccd3ae70-d5a2-45ef-bf6c-69f335c611d5.png">
+
+<img width="428" alt="Screen Shot 2022-05-15 at 3 06 19 PM" src="https://user-images.githubusercontent.com/98676400/168491826-580b1806-1ca8-481e-80f9-f8371cedde17.png">
+
+
+<img width="418" alt="Screen Shot 2022-05-15 at 3 08 17 PM" src="https://user-images.githubusercontent.com/98676400/168491881-2d48905c-4973-42f2-94f5-a66e1fb9a868.png">
+
+<img width="417" alt="Screen Shot 2022-05-15 at 3 08 53 PM" src="https://user-images.githubusercontent.com/98676400/168491895-3289d7d0-59e6-4885-a1e4-5fbd42e7b63e.png">
+
+
+
+
+
+  
 
