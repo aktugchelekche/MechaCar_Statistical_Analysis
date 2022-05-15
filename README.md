@@ -112,3 +112,16 @@ Following data is needed to run this statistical test,
 * VIN number
 * Horse Power data
 * Fuel Efficiency data
+
+# Resources 
+
+Data Source:
+
+MechaCar_mpg.csv
+Suspension_Coil.csv
+
+Software:
+
+RStudio
+Languages: R
+
