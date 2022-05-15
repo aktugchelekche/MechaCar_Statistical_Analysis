@@ -64,17 +64,32 @@ However, when we created a summary for each indivudual lot , we can observe that
 
 ## T-Tests on Suspension Coils
 
-<img width="422" alt="Screen Shot 2022-05-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/98676400/168491796-ccd3ae70-d5a2-45ef-bf6c-69f335c611d5.png">
+One-sample t-test is to determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI.
 
-<img width="428" alt="Screen Shot 2022-05-15 at 3 06 19 PM" src="https://user-images.githubusercontent.com/98676400/168491826-580b1806-1ca8-481e-80f9-f8371cedde17.png">
+H<sub>0<sub>: No difference between the suspension coil data set mean and its presumed population mean of 1,500 PSI.
 
+H<sub>a<sub>: There is a statistical difference between the mean of suspension coil data set and its presumed population mean of 1,500 PSI.
 
-<img width="418" alt="Screen Shot 2022-05-15 at 3 08 17 PM" src="https://user-images.githubusercontent.com/98676400/168491881-2d48905c-4973-42f2-94f5-a66e1fb9a868.png">
+In order to decide which Hypothesis we can reject or fail to reject, we need to calculate <code>p -value < /code> of each observation and if the  <code>p -value < /code> is lower than the significance level <code> 0.005</code> we can reject the null hypothesis and accept H<sub>a<sub> .
 
-<img width="417" alt="Screen Shot 2022-05-15 at 3 08 53 PM" src="https://user-images.githubusercontent.com/98676400/168491895-3289d7d0-59e6-4885-a1e4-5fbd42e7b63e.png">
-
-
-
+<table>
+  <tr>
+    <td>Cumulative T-test on Suspension Coils: As we can see from the cumulative <code> T-test </code> <code> p-value =  </code> </td>
+    <td><img width="422" alt="Screen Shot 2022-05-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/98676400/168491796-ccd3ae70-d5a2-45ef-bf6c-69f335c611d5.png"></td>
+  </tr>
+  <tr>
+    <td>T-test on Suspension Coils Lot 1</td>
+    <td><img width="428" alt="Screen Shot 2022-05-15 at 3 06 19 PM" src="https://user-images.githubusercontent.com/98676400/168491826-580b1806-1ca8-481e-80f9-f8371cedde17.png"></td>
+  </tr>
+  <tr>
+    <td>T-test on Suspension Coils Lot 2</td>
+    <td><img width="418" alt="Screen Shot 2022-05-15 at 3 08 17 PM" src="https://user-images.githubusercontent.com/98676400/168491881-2d48905c-4973-42f2-94f5-a66e1fb9a868.png"></td>
+  </tr>
+  <tr>
+    <td>T-test on Suspension Coils Lot 3</td>
+    <td><img width="417" alt="Screen Shot 2022-05-15 at 3 08 53 PM" src="https://user-images.githubusercontent.com/98676400/168491895-3289d7d0-59e6-4885-a1e4-5fbd42e7b63e.png"></td>
+  </tr>
+</table>
 
 
   
