@@ -117,11 +117,11 @@ Following data is needed to run this statistical test,
 
 Data Source:
 
-MechaCar_mpg.csv
-Suspension_Coil.csv
+* MechaCar_mpg.csv
+* Suspension_Coil.csv
 
 Software:
 
-RStudio
-Languages: R
+* RStudio
+* Languages: R
 
