@@ -74,19 +74,19 @@ In order to decide which Hypothesis we can reject or fail to reject, we need to 
 
 <table>
   <tr>
-    <td><strong>Cumulative T-test on Suspension Coils</strong>: As we can see from the cumulative T-test<code> p-value = 0.06028</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different </code></td>
+    <td><strong>Cumulative T-test on Suspension Coils</strong>: As we can see from the cumulative T-test<code> p-value = 0.06028</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different</td>
     <td><img width="900" alt="Screen Shot 2022-05-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/98676400/168491796-ccd3ae70-d5a2-45ef-bf6c-69f335c611d5.png"></td>
   </tr>
   <tr>
-  <td><strong>T-test on Suspension Coils Lot 1 </strong>: As we can see from the cumulative T-test<code> p-value = 1</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different </code></strong> </td>
+  <td><strong>T-test on Suspension Coils Lot 1 </strong>: As we can see from the cumulative T-test<code> p-value = 1</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different </td>
     <td><img width="428" alt="Screen Shot 2022-05-15 at 3 06 19 PM" src="https://user-images.githubusercontent.com/98676400/168491826-580b1806-1ca8-481e-80f9-f8371cedde17.png"></td>
   </tr>
   <tr>
-  <td><strong>T-test on Suspension Coils Lot 2</strong>: As we can see from the cumulative T-test<code> p-value = 0.6072</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different </code></td>
+  <td><strong>T-test on Suspension Coils Lot 2</strong>: As we can see from the cumulative T-test<code> p-value = 0.6072</code> that is quite higher than <code>0.05</code> thus we fail to reject the null hypothesis that the the mean of the sample and its presumed population mean not statistically different</td>
     <td><img width="418" alt="Screen Shot 2022-05-15 at 3 08 17 PM" src="https://user-images.githubusercontent.com/98676400/168491881-2d48905c-4973-42f2-94f5-a66e1fb9a868.png"></td>
   </tr>
   <tr>
-    <td>T-test on Suspension Coils Lot 3</td>
+  <td><strong>T-test on Suspension Coils Lot 3</strong>: As we can see from the cumulative T-test<code> p-value = 0.04168</code> that is quite less than <code>0.05</code> thus we can reject the null hypothesis that the the mean of the sample and its presumed population mean are statistically different. This lot might be the cuase of production troubles and need more attention to find the issue. </td>
     <td><img width="417" alt="Screen Shot 2022-05-15 at 3 08 53 PM" src="https://user-images.githubusercontent.com/98676400/168491895-3289d7d0-59e6-4885-a1e4-5fbd42e7b63e.png"></td>
   </tr>
 </table>
